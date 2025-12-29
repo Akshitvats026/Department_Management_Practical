@@ -20,7 +20,7 @@ The application allows users to perform complete **CRUD operations** (Create, Re
 
 ## SnapShot Of my project 
 <p align="center">
-  <img src="images/ui.png" alt="Department Management UI" width="700">
+  <img src="Department_Management/Department_Management/Dept_Snapshot.jpeg" alt="Department Management UI" width="700">
 </p>
 
 
