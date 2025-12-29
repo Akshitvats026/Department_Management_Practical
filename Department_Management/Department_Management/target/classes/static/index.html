@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Department Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Department Management System</h1>
+
+    <div class="form-card">
+        <input type="hidden" id="deptId">
+
+        <input type="text" id="deptName" placeholder="Department Name">
+        <input type="text" id="deptLocation" placeholder="Department Location">
+
+        <button class="add-btn" onclick="addDepartment()">Add</button>
+        <button class="update-btn" onclick="updateDepartment()">Update</button>
+    </div>
+
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Department</th>
+            <th>Location</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody id="deptTable"></tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
