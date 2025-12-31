@@ -39,4 +39,3 @@ The application allows users to perform complete **CRUD operations** (Create, Re
 - CSS  
 - JavaScript (Fetch API)
 
----
